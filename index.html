@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>몽글뽑기 · Plush Parlor</title>
+<meta name="description" content="진짜 물리로 즐기는 귀여운 3D 인형뽑기와 수집 게임. A cozy real-physics 3D claw machine.">
+<link rel="icon" href="icon.svg">
+<style>
+  :root { --bg: #f0efe7; --ink: #33463f; --muted: #6c7a72; --card: #fbfaf6; --line: #dfe3d8; --accent: #4d8d7e; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1d2523; --ink: #e8eee9; --muted: #aebbb4; --card: #27312e; --line: #3a4743; --accent: #8fcbbb; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; } header img { width: 72px; height: 72px; border-radius: 18px; }
+  h1 { margin: 0; font-size: 28px; } .sub { margin: 0; color: var(--muted); }
+  .hero { width: 100%; border-radius: 20px; margin: 24px 0; border: 1px solid var(--line); }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px 18px; }
+  .card h2 { margin: 0 0 6px; font-size: 17px; } .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  a { color: var(--accent); } footer { margin-top: 32px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header><img src="icon.svg" alt=""><div><h1>몽글뽑기</h1><p class="sub">Plush Parlor · 3D 인형뽑기</p></div></header>
+  <img class="hero" src="feature.png" alt="몽글뽑기 — 진짜 물리로 즐기는 3D 인형뽑기">
+  <div class="grid">
+    <div class="card" lang="ko"><h2>소개</h2><p>힘이 약한 집게로 인형을 들고, 밀고, 굴려서 출구 턱 너머로 데려오세요. 성공 확률이 정해진 뽑기가 아니라 집게와 인형이 모두 실제 물리로 움직여요.</p></div>
+    <div class="card" lang="en"><h2>About</h2><p>Lift, nudge and roll plushies over the exit lip with a weak, wobbly claw. No hidden win rate — the claw and every plush move with real physics.</p></div>
+    <div class="card" lang="ko"><h2>지원</h2><p>문의나 버그 제보는 <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>으로 보내주세요. 인형 세트 구매 복원은 상점 화면의 ‘구매 복원’을 눌러주세요.</p></div>
+    <div class="card" lang="en"><h2>Support</h2><p>Questions or bug reports: <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>. To restore plush sets, tap “구매 복원” (Restore) in the shop.</p></div>
+  </div>
+  <footer><a href="privacy.html">개인정보처리방침 · Privacy Policy</a></footer>
+</main>
+</body>
+</html>
