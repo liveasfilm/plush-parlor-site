@@ -2,6 +2,14 @@
  "schema": 1,
  "notices": [
   {
+   "id": "2026-11-christmas-village",
+   "date": "2026-11-05",
+   "popup": true,
+   "theme": "live_christmas_village",
+   "title": "크리스마스 마을 기계가 도착했어요",
+   "body": "눈사람 몽실·트리 반짝·진저 쿠키·루돌프 코코를 뽑을 수 있는 크리스마스 기계예요.\n누구나 바로 놀 수 있어요. 메리 몽글 크리스마스!"
+  },
+  {
    "id": "2026-11-produce-market",
    "date": "2026-11-03",
    "popup": true,
